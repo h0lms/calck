@@ -1,0 +1,49 @@
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.disease {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.disease__title {
+  margin-bottom: 30px;
+}
+
+.back {
+  position: absolute;
+  bottom: 20%;
+  margin: 0 auto;
+}
+
+.symptoms__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.symptoms__item {
+  margin-bottom: 20px;
+}
+
+.text {
+  color: green;
+}
+
+.redClass {
+  color: red;
+  font-size: 16px;
+}

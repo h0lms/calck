@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symptoms JS</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+<section class="disease">
+
+  <div class="disease__choice">
+    <h1 class="disease__title">Выбери симптомы:</h1>
+    
+    <form class="symptoms__list">
+      <label class="symptoms__item"><input class="symptoms__input" name="t" type="checkbox" value="temperature"> Температура</label>
+      <label class="symptoms__item"><input class="symptoms__input" name="k" type="checkbox" value="cough"> Кашель</label>
+      <label class="symptoms__item"><input class="symptoms__input" name="b" type="checkbox" value="ache"> Головная боль</label>
+      <div class="block">
+        <button class="btn" type="submit">Узнай, что за болезнь</button>
+      </div>
+    </form> 
+  </div>
+  
+
+
+    <h3 class="text"></h3>
+
+    <div class="back">
+      <a href="./disease.html">Болезни</a> | 
+      <a href="./">На главную</a>
+    </div>
+
+</section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./symptoms.js"></script>
+</body>
+
+</html>
