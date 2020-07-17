@@ -67,3 +67,7 @@ button {
 .section__input {
   margin-bottom: 10px;
 }
+
+.section__input:first-child {
+  margin-right: 10px;
+}
