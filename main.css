@@ -57,3 +57,13 @@ button {
 .btn {
   margin: 10px auto;
 }
+
+.section__min-max {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section__input {
+  margin-bottom: 10px;
+}

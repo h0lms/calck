@@ -4,8 +4,8 @@ const result = $(".section__result");
 
 btn.on("click", (e) => {
   e.preventDefault();
-  let inputMin = parseInt($(".section__input-min").val());
-  let inputMax = parseInt($(".section__input-max").val());
+  let inputMin = parseInt($("[name^='min']").val());
+  let inputMax = parseInt($("[name^='max']").val());
 
   result.text(getRandomNumber(inputMin, inputMax));
 });
