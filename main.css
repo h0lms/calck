@@ -11,7 +11,8 @@ button {
   color: blue;
 }
 
-.disease {
+.disease,
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +21,8 @@ button {
   height: 200px;
 }
 
-.disease__title {
+.disease__title,
+.section__title {
   margin-bottom: 30px;
 }
 
@@ -46,4 +48,12 @@ button {
 .redClass {
   color: red;
   font-size: 16px;
+}
+
+.section__result {
+  min-height: 20px;
+}
+
+.btn {
+  margin: 10px auto;
 }
