@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гласные буквы</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+<section class="section">
+
+  <h1 class="section__title">Гласные буквы</h1>
+
+  <form class="form-vowels">
+    <label>
+      Введите текст: <br>
+      <textarea name="text" class="form-vowels__input"></textarea>
+    </label>
+    <input type="submit" class="form-vowels__btn"  value="Найти гласные буквы в тексте">
+  </form>
+
+  <div class="resut-vowels"></div>
+
+  <div class="back">
+    <a href="./">Главная</a>
+  </div>
+
+</section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./vowels.js"></script>
+</body>
+
+</html>

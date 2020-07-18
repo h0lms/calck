@@ -71,3 +71,23 @@ button {
 .section__input:first-child {
   margin-right: 10px;
 }
+
+.form-vowels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.resut-vowels {
+  color: coral;
+  font-size: 22px;
+  letter-spacing: 10px;
+}
+
+.form-vowels__input {
+  font-size: 16px;
+  min-width: 300px;
+  min-height: 100px;
+  margin: 10px 0;
+}
