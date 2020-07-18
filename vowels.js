@@ -7,7 +7,7 @@ const test = "Привет, как дела?"
 btn.on("click", (e) => {
   e.preventDefault();
 
-  const textInput = input.val().toLowerCase();
+  const textInput = input.val();
   
   resultVowels.text(getVowels(textInput));
 });
@@ -20,7 +20,7 @@ const getVowels = array => {
     const element = array[i].toLowerCase();
     
     if (vowels.includes(element)) {
-      vovelsStr = vovelsStr + element;
+      vovelsStr += element;
     }
   }
   
